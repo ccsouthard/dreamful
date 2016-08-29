@@ -1,0 +1,10 @@
+.DS_Store
+
+node_modules
+
+# compiled by roots
+www
+
+# built by phonegap
+platforms/*
+!platforms/platforms.json

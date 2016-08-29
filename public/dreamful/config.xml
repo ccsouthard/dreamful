@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="co.dreamachine" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Dreamful</name>
+    <description>
+        Dreamful iOS App
+    </description>
+    <author email="chazsouthard@gmail.com" href="http://chazsouthard.com/">
+        Chaz Southard
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <engine name="ios" spec="~4.1.1" />
+    <engine name="browser" spec="~4.1.0" />
+</widget>
