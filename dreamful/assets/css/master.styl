@@ -1,0 +1,72 @@
+@import '_settings'
+
+//normalize-css()
+base()
+
+html
+  height: 100%
+
+body
+  -webkit-touch-callout: none
+  -webkit-text-size-adjust: none
+  -webkit-user-select: none
+  
+  background-color:#FC7417
+  background-image: linear-gradient(top, #FDD322 0%, #FC7417 100%)
+  background-image: -webkit-linear-gradient(top, #FDD322 0%, #FC7417 100%)
+  background-image: -ms-linear-gradient(top, #FDD322 0%, #FC7417 100%)
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #FDD322),
+    color-stop(1.0, #FC7417)
+  )
+  background-attachment: fixed
+  
+  height: 100%
+  width: 100%
+  margin: 0px
+  padding: 0px
+
+*
+  -webkit-tap-highlight-color: rgba(0,0,0,0)
+
+.landing
+  text-align: center
+  
+  .landing-center
+    position: absolute
+    top: 30%
+    transform: translateY(-30%)
+    padding: 0 15px
+    box-sizing: border-box
+
+  h1
+    font-size: 11vw
+    font-weight: normal
+    margin: 0px
+    padding: 0px
+    overflow: visible
+
+  p
+    font-size 6vw
+    letter-spacing: 1px
+    width: 100%
+  
+  .dream-on
+    color: #FFFFFF
+    font-size: 6vw
+    letter-spacing: 1px
+    text-decoration: none
+
+    border: 1px solid #FFFFFF
+    border-radius: 43.79px
+    padding: 5px 20px
+    display: inline-block
+    
+    position: absolute
+    bottom: 5vh
+    left: 50%
+    transform: translateX(-50%)
+    
